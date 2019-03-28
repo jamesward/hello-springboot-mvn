@@ -18,5 +18,5 @@ steps:
   - name: 'layers'
     path: '/layers'
   entrypoint: '/lifecycle/exporter'
-  args: ['-app', '/workspace', '-layers', '/layers', '-image', 'heroku/buildpacks', '-group', '/workspace/group.toml', '-daemon', 'gcr.io/$PROJECT_ID/$REPO_NAME']
-images: ['gcr.io/$PROJECT_ID/$REPO_NAME']
+  args: ['-app', '/workspace', '-layers', '/layers', '-image', 'heroku/buildpacks', '-group', '/workspace/group.toml', '-daemon', 'gcr.io/$PROJECT_ID/hello-springboot-mvn']
+images: ['gcr.io/$PROJECT_ID/hello-springboot-mvn']
