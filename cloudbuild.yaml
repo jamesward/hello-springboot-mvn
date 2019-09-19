@@ -1,3 +1,0 @@
-steps:
-  - name: 'gcr.io/cloudrun/pack'
-    args: ['build', '--builder=heroku/buildpacks:18', '--publish', 'gcr.io/$PROJECT_ID/$REPO_NAME:$COMMIT_SHA']
