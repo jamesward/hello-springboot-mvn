@@ -6,3 +6,8 @@ Hello Spring Boot
 ```
 ./mvnw compile jib:build -Dimage=gcr.io/${PROJECT_ID}/hello-springboot
 ```
+
+Run Locally:
+```
+./mvnw spring-boot:run
+```
